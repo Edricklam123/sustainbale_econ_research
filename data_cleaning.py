@@ -113,6 +113,41 @@ if __name__ == '__main__':
     cleaned_file_name = 'df_power_ts_long_form.csv'
     df_long_form.to_csv(os.path.join('.', 'Cleaned_Data', cleaned_file_name), index=False)
 
+    # Clean the column names for all master df
+    CLEANED_DATA_DIR = os.path.join(r'.\Cleaned_data')
+    file_name_list = ['df_info_master.csv', 'df_ghg_ts_master.csv', 'df_power_ts_long_form.csv', 'df_power_ts_master.csv']
+    for file_name in file_name_list:
+        file_path = os.path.join(CLEANED_DATA_DIR, file_name)
+        df = pd.read_csv(file_path)
+        df.columns = [x.lower().replace(' ', '_').replace(':', '') for x in df.columns]
+        if 'unnamed_0' in df.columns:
+            df = df.drop('unnamed_0', axis=1)
+        df.to_csv(file_path)
+
+
+    # Select the companies
+    CLEANED_DATA_DIR = os.path.join(r'.\Cleaned_data')
+    file_name = 'df_info_master.csv'
+    file_path = os.path.join(CLEANED_DATA_DIR, file_name)
+
+    df_info_master = pd.read_csv(file_path)
+    df_info_master = df_info_master.drop('Unnamed: 0', axis=1)
+    df_selected_comps = df_info_master.query(r'industry_classification.isin(@selected_industry)')
+
+    # Filter the exchange country
+    CLEANED_DATA_DIR = os.path.join(r'.\Cleaned_data')
+    file_name = 'df_exchange_mapping.csv'
+    file_path = os.path.join(CLEANED_DATA_DIR, file_name)
+
+    df_ex_map = pd.read_csv(file_path, encoding='latin-1')
+    df_selected_comps = df_selected_comps.merge(df_ex_map, on='exchange', how='left')
+    df_selected_comps = df_selected_comps.query(r'is_eu == "Y"')
+    df_selected_comps = df_selected_comps.drop_duplicates()
+
+    # exporting
+    cleaned_file_name = 'df_selected_comps.csv'
+    df_selected_comps.to_csv(os.path.join('.', 'Cleaned_Data', cleaned_file_name), index=False)
+    df_selected_comps
 
 if __name__ == '__utils__':
     CLEANED_DATA_DIR = os.path.join(r'.\Cleaned_data')
@@ -123,6 +158,7 @@ if __name__ == '__utils__':
     # Print industry list
     industry_list = df_company_info_master['Industry Classification'].unique().tolist()
     _ = [print(x) for x in industry_list]
+    selected_industry = [x for x in industry_list if 'electric' in x.lower()]
 
     # Print primary industry list
     pri_industry_list = df_company_info_master['Primary Industry'].unique().tolist()

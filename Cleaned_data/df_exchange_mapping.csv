@@ -1,0 +1,122 @@
+exchange,name,region,is_eu
+OTCEM,OTC Markets Group Inc.,United States,#N/A
+CNSX,Canadian Securities Exchange,Canada,#N/A
+TSXV,TSX Venture Exchange,Canada,#N/A
+NSEI,National Stock Exchange of India,India,#N/A
+ASX,Australian Securities Exchange,Australia,#N/A
+SET,Stock Exchange of Thailand,Thailand,#N/A
+BOVESPA,B3 - Brasil Bolsa Balcão S.A.,Brazil,#N/A
+TSX,Toronto Stock Exchange,Canada,#N/A
+Catalist,SGX Catalist,Singapore,#N/A
+HOSE,Ho Chi Minh Stock Exchange,Vietnam,#N/A
+SEHK,The Stock Exchange of Hong Kong Limited,Hong Kong,#N/A
+BSE,Bombay Stock Exchange Limited,India,#N/A
+NSEL,NSE Emerge,India,#N/A
+NGM,Nordic Growth Market NGM AB,Sweden,Y
+WSE,Warsaw Stock Exchange,Poland,Y
+SZSE,Shenzhen Stock Exchange,China,#N/A
+OB,Oslo Børs,Norway,#N/A
+XTRA,Deutsche Börse Xetra,Germany,Y
+PSE,Philippine Stock Exchange,Philippines,#N/A
+OTCQX,OTC Markets Group Inc.,United States,#N/A
+ADX,Abu Dhabi Securities Exchange,United Arab Emirates,#N/A
+CASE,Casablanca Stock Exchange,Egypt,#N/A
+SGX,Singapore Exchange Limited,Singapore,#N/A
+BME,Bolsas y Mercados Españoles,Spain,Y
+AIM,AIM London Stock Exchange,United Kingdom,Y
+BVC,Bolsa de Valores de Colombia,Colombia,#N/A
+TSE,Tokyo Stock Exchange,Japan,#N/A
+DSE,Dhaka Stock Exchange,Bangladesh,#N/A
+KWSE,Korea Exchange,South Korea,#N/A
+BIT,Borsa Italiana,Italy,Y
+IBSE,Istanbul Stock Exchange,Turkey,#N/A
+TASE,Tel Aviv Stock Exchange,Israel,#N/A
+COSE,Colombia Stock Exchange,Colombia,#N/A
+MUN,Munich Stock Exchange,Germany,Y
+SASE,Saudi Stock Exchange,Saudi Arabia,#N/A
+NASDAQCM,Nasdaq Capital Market,United States,#N/A
+NYSEAM,New York Stock Exchange American,United States,#N/A
+OTCQB,OTC Markets Group Inc. - QB,United States,#N/A
+ATSE,Athens Stock Exchange,Greece,Y
+KASE,Kazakhstan Stock Exchange,Kazakhstan,#N/A
+NASDAQGM,Nasdaq Global Market,United States,#N/A
+KOSDAQ,Korea Securities Dealers Automated Quotations,South Korea,#N/A
+NYSE,New York Stock Exchange,United States,#N/A
+JSE,Johannesburg Stock Exchange,South Africa,#N/A
+LUSE,Lusaka Stock Exchange,Zambia,#N/A
+KOSE,Korea Exchange,South Korea,#N/A
+SNSE,Santiago Stock Exchange,Chile,#N/A
+ASE,Athens Stock Exchange,Greece,Y
+HLSE,Helsinki Stock Exchange,Finland,Y
+MUSE,Muscat Securities Market,Oman,#N/A
+LSE,London Stock Exchange,United Kingdom,Y
+HMSE,Hanoi Stock Exchange,Vietnam,#N/A
+CBSE,Casablanca Stock Exchange,Morocco,#N/A
+ENXTPA,Euronext Paris,France,Y
+NASDAQGS,Nasdaq Global Select Market,United States,#N/A
+BRVM,Bourse Régionale des Valeurs Mobilières,West Africa,#N/A
+BVMT,Bourse des Valeurs Mobilières de Tunis,Tunisia,#N/A
+KAS,Karachi Stock Exchange,Pakistan,#N/A
+ENXTAM,Euronext Amsterdam,Netherlands,Y
+MSM,Maldives Stock Exchange,Maldives,#N/A
+KLSE,Bursa Malaysia,Malaysia,#N/A
+OTCPK,OTC Markets Group Inc. - PK,United States,#N/A
+BUL,Bulgarian Stock Exchange,Bulgaria,Y
+TPEX,Taipei Exchange,Taiwan,#N/A
+TWSE,Taiwan Stock Exchange,Taiwan,#N/A
+OM,Muscat Securities Market,Oman,#N/A
+BMV,Mexican Stock Exchange,Mexico,#N/A
+NEOE,NEO Exchange,Canada,#N/A
+BVB,Bucharest Stock Exchange,Romania,Y
+OFEX,OFEX Market (defunct),United Kingdom,Y
+BASE,Bermuda Stock Exchange,Bahamas,#N/A
+SWX,SIX Swiss Exchange,Switzerland,#N/A
+BAX,Bourse Africa Exchange,Iran,#N/A
+NGSE,Nigerian Stock Exchange,Nigeria,#N/A
+GHSE,Ghana Stock Exchange,Ghana,#N/A
+PSGM,Philippine Stock Exchange - GEM Market,Philippines,#N/A
+WBAG,Wiener Börse AG (Vienna Stock Exchange),Austria,Y
+SHSE,Shanghai Stock Exchange,China,#N/A
+PLSE,Palembang Stock Exchange (defunct),Poland,Y
+OTCNO,OTC Markets Group Inc. - NO,Norway,#N/A
+NZSE,New Zealand Stock Exchange,New Zealand,#N/A
+DUSE,Dubai Financial Market (previously called Dubai Stock Exchange),Dubai,#N/A
+RISE,Riga Stock Exchange (defunct),Russia,#N/A
+HNX,Hanoi Stock Exchange,Vietnam,#N/A
+MISX,Moscow Interbank Currency Exchange (defunct),Russia,#N/A
+NASE,Nagoya Stock Exchange (merged with Tokyo Stock Exchange),Saudi Arabia,#N/A
+ISE,Irish Stock Exchange (now Euronext Dublin),Iceland,#N/A
+JMSE,Jamaica Stock Exchange,Jordan,#N/A
+DB,Deutsche Börse,Germany,Y
+ENXTBR,Euronext Brussels,Belgium,Y
+CCSE,Colombo Stock Exchange,Chile,#N/A
+CSE,Copenhagen Stock Exchange (now part of Nasdaq Nordic),Sri Lanka,#N/A
+BDM,Bolsa de Madrid (Madrid Stock Exchange),Bulgaria,Y
+BVL,Bolsa de Valores de Lima (Lima Stock Exchange),Peru,#N/A
+GYSE,Guyana Stock Exchange,Guyana,#N/A
+CPSE,Shanghai Stock Exchange - STAR Market,Cambodia,#N/A
+NSE,Nigerian Stock Exchange,India,#N/A
+LJSE,Ljubljana Stock Exchange,Slovenia,Y
+XKON,Konex (Argentina) (defunct),South Korea,#N/A
+BER,Berlin Stock Exchange,Germany,Y
+BSSE,Belgrade Stock Exchange,Bosnia and Herzegovina,#N/A
+SEP,Santiago Stock Exchange - Electronic Stock Exchange,Peru,#N/A
+ENXTLS,Euronext Lisbon,Netherlands,Y
+BSM,Borsa Italiana - Mercato Alternativo del Capitale (Alternative Investment Market),Malta,Y
+BELEX,Belgrade Stock Exchange,Serbia,#N/A
+DSM,Dar es Salaam Stock Exchange,Tanzania,#N/A
+BDB,Beirut Stock Exchange,Belarus,#N/A
+HNSE,Ho Chi Minh City Stock Exchange,Hungary,Y
+ZGSE,Zagreb Stock Exchange,Zimbabwe,#N/A
+UKR,Ukrainian Exchange,Ukraine,#N/A
+NSX,National Stock Exchange of Australia,Australia,#N/A
+CHIA,Chi-X Asia-Pacific,China,#N/A
+MTSE,Mongolian Stock Exchange,Mongolia,#N/A
+FKSE,Fukuoka Stock Exchange,Falkland Islands,#N/A
+BUSE,Bulgarian Stock Exchange - Sofia AD,Bulgaria,Y
+TTSE,Trinidad and Tobago Stock Exchange,Trinidad and Tobago,#N/A
+DFM,Dubai Financial Market,United Arab Emirates,#N/A
+IDX,Indonesia Stock Exchange,Indonesia,#N/A
+ZMSE,Lusaka Stock Exchange,Zambia,#N/A
+DAR,Dar es Salaam Stock Exchange,Tanzania,#N/A
+UGSE,Uganda Securities Exchange,Uganda,#N/A
