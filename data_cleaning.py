@@ -133,6 +133,10 @@ if __name__ == '__main__':
     df_info_master = pd.read_csv(file_path)
     df_info_master = df_info_master.drop('Unnamed: 0', axis=1)
     df_selected_comps = df_info_master.query(r'industry_classification.isin(@selected_industry)')
+    """
+    I found tht there may be duplicated companies, all fields are same except the industry, we need to drop them as well
+    """
+    df_selected_comps = df_selected_comps.drop_duplicates('entity_id', keep='first')
 
     # Filter the exchange country
     CLEANED_DATA_DIR = os.path.join(r'.\Cleaned_data')
@@ -156,7 +160,7 @@ if __name__ == '__utils__':
     df_company_info_master = pd.read_csv(file_path)
     df_company_info_master.columns
     # Print industry list
-    industry_list = df_company_info_master['Industry Classification'].unique().tolist()
+    industry_list = df_company_info_master['industry_classification'].unique().tolist()
     _ = [print(x) for x in industry_list]
     selected_industry = [x for x in industry_list if 'electric' in x.lower()]
 
