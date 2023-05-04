@@ -132,3 +132,6 @@ if __name__ == '__utils__':
     sec_industry_list = df_company_info_master['2nd Level Primary Industry'].unique().tolist()
     _ = [print(x) for x in sec_industry_list]
 
+    # Next step: making the data ts into long form so that we can run regression
+    # Also plot some initial graphs
+    # also adding the company geographical location
