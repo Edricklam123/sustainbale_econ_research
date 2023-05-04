@@ -1,42 +1,31 @@
-entity_id,entity_name,exchange,exchange_ticker,industry_classification,primary_industry,2nd_level_primary_industry,name,region,is_eu,bbg_ticker
-5001248,AB Inter RAO Lietuva (WSE:IRL),WSE,WSE:IRL,Electric Power Distribution,Electric Utilities,Utilities,Warsaw Stock Exchange,Poland,Y,IRL PW
-4147764,"Acciona, S.A. (BME:ANA)",BME,BME:ANA,Electric Power Distribution; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Bolsas y Mercados Españoles,Spain,Y,ANA SM
-10421857,Admie Holding S.A. (ATSE:ADMIE),ATSE,ATSE:ADMIE,Electric Power Transmission and Control,Electric Utilities,Utilities,Athens Stock Exchange,Greece,Y,ADMIE GA
-5001229,CNTEE Transelectrica SA (BVB:TEL),BVB,BVB:TEL,Electric Power Transmission and Control,Electric Utilities,Utilities,Bucharest Stock Exchange,Romania,Y,TEL RO
-4098512,"EDP - Energias de Portugal, S.A. (ENXTLS:EDP)",ENXTLS,ENXTLS:EDP,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Euronext Lisbon,Netherlands,Y,EDP PL
-4101540,Electricité de France S.A. (ENXTPA:EDF),ENXTPA,ENXTPA:EDF,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Euronext Paris,France,Y,EDF FP
-5001167,Électricite de Strasbourg Société Anonyme (ENXTPA:ELEC),ENXTPA,ENXTPA:ELEC,Electric Power Distribution,Electric Utilities,Utilities,Euronext Paris,France,Y,ELEC FP
-6933542,Elektro Ljubljana d.d. (LJSE:ELOG),LJSE,LJSE:ELOG,Electric Power Distribution,Electric Utilities,Utilities,Ljubljana Stock Exchange,Slovenia,Y,ELOG SV
-7402455,Elektro Maribor d.d. (LJSE:EMAG),LJSE,LJSE:EMAG,Electric Power Distribution,Electric Utilities,Utilities,Ljubljana Stock Exchange,Slovenia,Y,EMAG SV
-5001057,Elektrocieplownia Bedzin S.A. (WSE:BDZ),WSE,WSE:BDZ,Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Warsaw Stock Exchange,Poland,Y,BDZ PW
-5001290,Elia Group SA/NV (ENXTBR:ELI),ENXTBR,ENXTBR:ELI,Electric Power Transmission and Control,Electric Utilities,Utilities,Euronext Brussels,Belgium,Y,ELI EU
-4825275,EnBW Energie Baden-Württemberg AG (XTRA:EBK),XTRA,XTRA:EBK,Electric Power Distribution; Electric Power Generation By Fossil Fuels; Electric Power Transmission and Control,Electric Utilities,Utilities,Deutsche Börse Xetra,Germany,Y,EBK GY
-4098284,"Endesa, S.A. (BME:ELE)",BME,BME:ELE,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Bolsas y Mercados Españoles,Spain,Y,ELE SM
-4632323,ENEA S.A. (WSE:ENA),WSE,WSE:ENA,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Warsaw Stock Exchange,Poland,Y,ENA PW
-4072853,Enel SpA (BIT:ENEL),BIT,BIT:ENEL,Electric Power Distribution; Electric Power Generation By Fossil Fuels; Electric Power Transmission and Control,Electric Utilities,Utilities,Borsa Italiana,Italy,Y,ENEL IM
-5001099,Energa SA (WSE:ENG),WSE,WSE:ENG,Electric Power Distribution; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Warsaw Stock Exchange,Poland,Y,ENG PW
-13030908,E-Pango SA (ENXTPA:ALAGO),ENXTPA,ENXTPA:ALAGO,Electric Power Distribution,Electric Utilities,Utilities,Euronext Paris,France,Y,ALAGO FP
-5001154,EVN AG (WBAG:EVN),WBAG,WBAG:EVN,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Wiener Börse AG (Vienna Stock Exchange),Austria,Y,EVN AV
-4306247,Fortum Oyj (HLSE:FORTUM),HLSE,HLSE:FORTUM,Electric Power Distribution; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Helsinki Stock Exchange,Finland,Y,FORTUM FH
-7260934,"Holaluz-Clidom, S.A. (BME:HLZ)",BME,BME:HLZ,Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Bolsas y Mercados Españoles,Spain,Y,HLZ SM
-4102079,"Iberdrola, S.A. (BME:IBE)",BME,BME:IBE,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Bolsas y Mercados Españoles,Spain,Y,IBE SM
-5001286,Irbid District Electricity Co. Ltd. (ASE:IREL),ASE,ASE:IREL,Electric Power Distribution,Electric Utilities,Utilities,Athens Stock Exchange,Greece,Y,IREL JR
-5001102,Jersey Electricity plc (LSE:JEL),LSE,LSE:JEL,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,London Stock Exchange,United Kingdom,Y,JEL LN
-5001190,Jordan Electric Power Company (ASE:JOEP),ASE,ASE:JOEP,Electric Power Distribution,Electric Utilities,Utilities,Athens Stock Exchange,Greece,Y,JOEP JR
-5001261,Lechwerke AG (DB:LEC),DB,DB:LEC,Electric Power Distribution,Electric Utilities,Utilities,Deutsche Börse,Germany,Y,LEC GR
-23328213,MAST Energy Developments PLC (LSE:MAST),LSE,LSE:MAST,Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,London Stock Exchange,United Kingdom,Y,MAST LN
-4999337,MINT Société anonyme (ENXTPA:ALBUD),ENXTPA,ENXTPA:ALBUD,Electric Power Distribution,Electric Utilities,Utilities,Euronext Paris,France,Y,ALBUD FP
-5001281,OPG Power Ventures Plc (AIM:OPG),AIM,AIM:OPG,Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,AIM London Stock Exchange,United Kingdom,Y,OPG LN
-5001189,PGE Polska Grupa Energetyczna S.A. (WSE:PGE),WSE,WSE:PGE,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Warsaw Stock Exchange,Poland,Y,PGE PW
-4157528,Public Power Corporation S.A. (ATSE:PPC),ATSE,ATSE:PPC,Electric Power Distribution; Electric Power Generation By Fossil Fuels; Electric Power Transmission and Control,Electric Utilities,Utilities,Athens Stock Exchange,Greece,Y,PPC GA
-5001070,"Red Eléctrica Corporación, S.A. (BME:RED)",BME,BME:RED,Electric Power Transmission and Control,Electric Utilities,Utilities,Bolsas y Mercados Españoles,Spain,Y,RED SM
-5001135,S.N. Nuclearelectrica S.A. (BVB:SNN),BVB,BVB:SNN,Electric Power Transmission and Control,Electric Utilities,Utilities,Bucharest Stock Exchange,Romania,Y,SNN RO
-5001096,Societatea Energetica Electrica S.A. (BVB:EL),BVB,BVB:EL,Electric Power Distribution,Electric Utilities,Utilities,Bucharest Stock Exchange,Romania,Y,EL RO
-4093924,SSE plc (LSE:SSE),LSE,LSE:SSE,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,London Stock Exchange,United Kingdom,Y,SSE LN
-4511210,TAURON Polska Energia S.A. (WSE:TPE),WSE,WSE:TPE,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Warsaw Stock Exchange,Poland,Y,TPE PW
-5001246,Terna - Rete Elettrica Nazionale Società per Azioni (BIT:TRN),BIT,BIT:TRN,Electric Power Transmission and Control,Electric Utilities,Utilities,Borsa Italiana,Italy,Y,TRN EU
-7130911,Toplofikatsia Ruse EAD (BUL:TPLR),BUL,BUL:TPLR,Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Bulgarian Stock Exchange,Bulgaria,Y,0226517D BU
-7588683,Toplofikatsia-Burgas AD (BUL:TPLB),BUL,BUL:TPLB,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Bulgarian Stock Exchange,Bulgaria,Y,TPLB BU
-7161617,TPP-Bobov Dol AD (BUL:TBD),BUL,BUL:TBD,Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Bulgarian Stock Exchange,Bulgaria,Y,TBD BU
-5001062,VERBUND AG (WBAG:VER),WBAG,WBAG:VER,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Wiener Börse AG (Vienna Stock Exchange),Austria,Y,VER AV
-4539460,Zespól Elektrowni Patnów-Adamów-Konin S.A. (WSE:ZEP),WSE,WSE:ZEP,Electric Power Distribution; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Warsaw Stock Exchange,Poland,Y,ZEP PW
+entity_id,entity_name,exchange,exchange_ticker,industry_classification,primary_industry,2nd_level_primary_industry,name,region,is_eu,bbg_ticker,end_date_adj
+5001248,AB Inter RAO Lietuva (WSE:IRL),WSE,WSE:IRL,Electric Power Distribution,Electric Utilities,Utilities,Warsaw Stock Exchange,Poland,Y,IRL PW,
+4147764,"Acciona, S.A. (BME:ANA)",BME,BME:ANA,Electric Power Distribution; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Bolsas y Mercados Españoles,Spain,Y,ANA SM,
+10421857,Admie Holding S.A. (ATSE:ADMIE),ATSE,ATSE:ADMIE,Electric Power Transmission and Control,Electric Utilities,Utilities,Athens Stock Exchange,Greece,Y,ADMIE GA,
+5001229,CNTEE Transelectrica SA (BVB:TEL),BVB,BVB:TEL,Electric Power Transmission and Control,Electric Utilities,Utilities,Bucharest Stock Exchange,Romania,Y,TEL RO,
+4098512,"EDP - Energias de Portugal, S.A. (ENXTLS:EDP)",ENXTLS,ENXTLS:EDP,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Euronext Lisbon,Netherlands,Y,EDP PL,
+4101540,Electricité de France S.A. (ENXTPA:EDF),ENXTPA,ENXTPA:EDF,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Euronext Paris,France,Y,EDF FP,
+5001167,Électricite de Strasbourg Société Anonyme (ENXTPA:ELEC),ENXTPA,ENXTPA:ELEC,Electric Power Distribution,Electric Utilities,Utilities,Euronext Paris,France,Y,ELEC FP,
+6933542,Elektro Ljubljana d.d. (LJSE:ELOG),LJSE,LJSE:ELOG,Electric Power Distribution,Electric Utilities,Utilities,Ljubljana Stock Exchange,Slovenia,Y,ELOG SV,
+7402455,Elektro Maribor d.d. (LJSE:EMAG),LJSE,LJSE:EMAG,Electric Power Distribution,Electric Utilities,Utilities,Ljubljana Stock Exchange,Slovenia,Y,EMAG SV,
+5001057,Elektrocieplownia Bedzin S.A. (WSE:BDZ),WSE,WSE:BDZ,Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Warsaw Stock Exchange,Poland,Y,BDZ PW,
+5001290,Elia Group SA/NV (ENXTBR:ELI),ENXTBR,ENXTBR:ELI,Electric Power Transmission and Control,Electric Utilities,Utilities,Euronext Brussels,Belgium,Y,ELI EU,
+4825275,EnBW Energie Baden-Württemberg AG (XTRA:EBK),XTRA,XTRA:EBK,Electric Power Distribution; Electric Power Generation By Fossil Fuels; Electric Power Transmission and Control,Electric Utilities,Utilities,Deutsche Börse Xetra,Germany,Y,EBK GY,
+4098284,"Endesa, S.A. (BME:ELE)",BME,BME:ELE,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Bolsas y Mercados Españoles,Spain,Y,ELE SM,
+4632323,ENEA S.A. (WSE:ENA),WSE,WSE:ENA,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Warsaw Stock Exchange,Poland,Y,ENA PW,
+4072853,Enel SpA (BIT:ENEL),BIT,BIT:ENEL,Electric Power Distribution; Electric Power Generation By Fossil Fuels; Electric Power Transmission and Control,Electric Utilities,Utilities,Borsa Italiana,Italy,Y,ENEL IM,
+5001099,Energa SA (WSE:ENG),WSE,WSE:ENG,Electric Power Distribution; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Warsaw Stock Exchange,Poland,Y,ENG PW,
+5001154,EVN AG (WBAG:EVN),WBAG,WBAG:EVN,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Wiener Börse AG (Vienna Stock Exchange),Austria,Y,EVN AV,
+4306247,Fortum Oyj (HLSE:FORTUM),HLSE,HLSE:FORTUM,Electric Power Distribution; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Helsinki Stock Exchange,Finland,Y,FORTUM FH,
+4102079,"Iberdrola, S.A. (BME:IBE)",BME,BME:IBE,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Bolsas y Mercados Españoles,Spain,Y,IBE SM,
+5001286,Irbid District Electricity Co. Ltd. (ASE:IREL),ASE,ASE:IREL,Electric Power Distribution,Electric Utilities,Utilities,Athens Stock Exchange,Greece,Y,IREL JR,
+5001102,Jersey Electricity plc (LSE:JEL),LSE,LSE:JEL,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,London Stock Exchange,United Kingdom,Y,JEL LN,Sep
+5001190,Jordan Electric Power Company (ASE:JOEP),ASE,ASE:JOEP,Electric Power Distribution,Electric Utilities,Utilities,Athens Stock Exchange,Greece,Y,JOEP JR,
+5001261,Lechwerke AG (DB:LEC),DB,DB:LEC,Electric Power Distribution,Electric Utilities,Utilities,Deutsche Börse,Germany,Y,LEC GR,
+5001189,PGE Polska Grupa Energetyczna S.A. (WSE:PGE),WSE,WSE:PGE,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Warsaw Stock Exchange,Poland,Y,PGE PW,
+4157528,Public Power Corporation S.A. (ATSE:PPC),ATSE,ATSE:PPC,Electric Power Distribution; Electric Power Generation By Fossil Fuels; Electric Power Transmission and Control,Electric Utilities,Utilities,Athens Stock Exchange,Greece,Y,PPC GA,
+5001070,"Red Eléctrica Corporación, S.A. (BME:RED)",BME,BME:RED,Electric Power Transmission and Control,Electric Utilities,Utilities,Bolsas y Mercados Españoles,Spain,Y,RED SM,
+5001135,S.N. Nuclearelectrica S.A. (BVB:SNN),BVB,BVB:SNN,Electric Power Transmission and Control,Electric Utilities,Utilities,Bucharest Stock Exchange,Romania,Y,SNN RO,
+5001246,Terna - Rete Elettrica Nazionale Società per Azioni (BIT:TRN),BIT,BIT:TRN,Electric Power Transmission and Control,Electric Utilities,Utilities,Borsa Italiana,Italy,Y,TRN EU,
+5001062,VERBUND AG (WBAG:VER),WBAG,WBAG:VER,Electric Power Distribution; Electric Power Transmission and Control; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Wiener Börse AG (Vienna Stock Exchange),Austria,Y,VER AV,
+4539460,Zespól Elektrowni Patnów-Adamów-Konin S.A. (WSE:ZEP),WSE,WSE:ZEP,Electric Power Distribution; Electric Power Generation By Fossil Fuels,Electric Utilities,Utilities,Warsaw Stock Exchange,Poland,Y,ZEP PW,

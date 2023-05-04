@@ -101,17 +101,41 @@ if __name__ == '__main__':
     df = pd.read_csv(ts_file_path)
 
     # melt the df
-    df_long_form = df.melt(id_vars='Entity ID')
-    pattern_year = r'_CY(\d{4})'
-    pattern_var = r'TC_COMPANY_POWER_GEN_(.+)_CY.*'
+    df_long_form = df.melt(id_vars='entity_id')
+    pattern_year = r'_cy(\d{4})'
+    pattern_var = r'TC_COMPANY_POWER_GEN_(.+)_cy.*'.lower()
     df_long_form['year'] = df_long_form['variable'].str.extract(pattern_year)
     df_long_form['power'] = df_long_form['variable'].str.extract(pattern_var)
     df_long_form.head()
 
-    df_long_form = df_long_form[['Entity ID', 'power', 'year', 'value']]
-
+    df_long_form = df_long_form[['entity_id', 'power', 'year', 'value']]
+    df_long_form = df_long_form.pivot_table(columns='power', index=['entity_id', 'year'], values='value')
+    
     cleaned_file_name = 'df_power_ts_long_form.csv'
-    df_long_form.to_csv(os.path.join('.', 'Cleaned_Data', cleaned_file_name), index=False)
+    df_long_form.to_csv(os.path.join('.', 'Cleaned_Data', cleaned_file_name))
+    """
+    Note: many eu companies have number, that is good
+    """
+
+    # Turn the ghg time series into long form
+    # Load the dataframe
+    CLEANED_DATA_DIR = os.path.join(r'.\Cleaned_data')
+    ts_file_name = 'df_ghg_ts_master.csv'
+    ts_file_path = os.path.join(CLEANED_DATA_DIR, ts_file_name)
+    df = pd.read_csv(ts_file_path)
+
+    # melt the df
+    df_long_form = df.melt(id_vars='entity_id')
+    pattern_year = r'_cy(\d{4})'
+    pattern_var = r'tc_(.+)_cy.*'.lower()
+    df_long_form['year'] = df_long_form['variable'].str.extract(pattern_year)
+    df_long_form['ghg_scope'] = df_long_form['variable'].str.extract(pattern_var)
+    df_long_form.head()
+    df_long_form = df_long_form[['entity_id', 'ghg_scope', 'year', 'value']]
+    df_long_form = df_long_form.pivot_table(columns='ghg_scope', index=['entity_id', 'year'], values='value')
+    
+    cleaned_file_name = 'df_ghg_ts_long_form.csv'
+    df_long_form.to_csv(os.path.join('.', 'Cleaned_Data', cleaned_file_name))
 
     # Clean the column names for all master df
     CLEANED_DATA_DIR = os.path.join(r'.\Cleaned_data')
