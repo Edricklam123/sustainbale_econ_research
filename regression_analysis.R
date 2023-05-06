@@ -151,4 +151,9 @@ fe3 = lm(green_tech_rr~I(log(cp_avg_price)) + factor(entity_id) + factor(year), 
 summary(fe3)
 stargazer(fe3, type='html', out='CP_tb5.html')
 
+all_comps = lm(green_tech_rr~I(log(cp_avg_price)) + factor(year) + factor(region), data=df_all_comps)
+summary(all_comps)
+stargazer(all_comps, type='text')
+stargazer(all_comps, type='html', out='CP_tb6.html')
+
 str(df)
